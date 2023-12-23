@@ -1,0 +1,910 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*common code start*/
+
+a {
+    text-decoration: none;
+}
+
+.section-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*common code end*/
+
+/*header part start*/
+.header {
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav{
+    max-width: 1400px;
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title-container h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-title-container span {
+    color: #FF42A5;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav  li {
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: 0;
+    color: #3c354f;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.fa-youtube {
+    padding: 0 15px;
+    font-size: 20px;
+}
+/*header part end*/
+/*banner part start*/
+.banner-section {
+    margin: 0 200px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title {
+}
+.banner-title h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-title > ul{
+    padding-bottom: 30px;
+}
+.banner-title ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+.banner-title ul li a{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner-title ul li a i{
+    color: #F948B2;
+    padding-right: 10px;
+}
+.banner-btn-group {}
+.banner-btn-group .primary-btn{
+    background-color: #F948B2;
+    border-radius: 25px;
+    padding: 15px 25px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner-btn-group .secondary-btn{
+    background-color: #4EC5F7;
+    border-radius: 25px;
+    padding: 15px 25px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.banner-image {
+}
+.banner-image img{
+    width: 500px;
+    object-fit: cover;
+}
+/*banner part end*/
+/*banner second section start*/
+.banner-section-second {
+    margin: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+}
+.banner-section-second img {
+    width: 700px;
+}
+
+.banner-section-second-title h3{
+    text-align: right;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.banner-section-second-title p{
+    color: #534C64;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.second-banner-btn {
+    text-align: end;
+}
+.banner-section-second-title  .primary-btn {
+    background-color: #F948B2;
+    border-radius: 25px;
+    padding: 15px 25px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.banner-section-second-title h5 {
+    color: #534C64;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0 10px;
+}
+.banner-section-second-title span {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*online games section*/
+.online-games-section {
+    margin: 0 200px;
+    padding-top: 50px;
+    max-width: 1400px;
+}
+.online-games-section h3 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.online-games-section span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-games-section p {
+    color: #534C64;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+.online-games-box {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.box-content {
+    position: relative;
+}
+.box-content img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    border-radius: 16px;
+    transition: .4s ease-in-out;
+    background-color: rgba(0, 0, 0, 1);   
+}
+
+.icon-effect-content {
+    width: 100%;
+    height: 83.5%;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.icon-effect-content:hover {
+    opacity: 1;
+}
+.icon-effect-content > * {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.icon-effect-content:hover > * {
+    transform: translateY(0px);
+}
+.icon-effect-content .fa-circle-play {
+    font-size: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.icon-effect-content h4 {
+    font-weight: 600;
+    font-size: 20px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-content p {
+    text-align: start;
+    font-weight: 500;
+    color: #534C64;
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+/*download section start*/
+.download-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    padding: 120px 0;
+}
+.downloads-content {
+    padding: 60px 150px;
+}
+.downloads-content h3 {
+        text-align: right;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 10px;
+}
+.downloads-content span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.downloads-content p {
+    color: #534C64;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.download-image {
+    text-align: end;
+    position: relative;
+}
+.download-image .first-image {
+    width: 450px;
+    height: 420px;
+    object-fit: cover;
+}
+.download-image .second-image {
+    border-radius: 5px;
+    border: 5px solid #fff;
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    position: absolute;
+    left: -100px;
+    bottom: -50px;
+}
+
+/*download section second part*/
+.downloads-content-second {
+    padding: 60px 150px;
+}
+
+.downloads-content-second h3 {
+    text-align: start;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+.downloads-content-second span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.downloads-content-second p {
+    color: #534C64;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.download-image-second {
+    text-align: start;
+    position: relative;
+}
+
+.download-image-second .first-image-second {
+    width: 450px;
+    height: 420px;
+    object-fit: cover;
+}
+
+.download-image-second .second-image-second {
+    border-radius: 5px;
+    border: 5px solid #fff;
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    position: absolute;
+    right: -100px;
+    bottom: -50px;
+}
+/*gamer icon section start*/
+.gamer-icon-section {
+    max-width: 1400px;
+    margin: 0 200px;
+    padding: 120px 0;
+}
+
+.gamer-icon-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+    height: 80px;
+    border-radius: 45px;
+    border: 2px solid  transparent;
+    padding: 0 10px;
+    transition: .4s ease-in;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.gamer-icon-box:hover {
+    border: 2px solid #F948B2;
+}
+.gamer-icon-box:hover h6 {
+    color: #F948B2;
+}
+.gamer-icon-box img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.gamer-icon-box h6{
+    font-size: 15px;
+    color: #0B0223;
+    font-weight: 600;
+    transition: .4s;
+}
+.gamer-icon-firstrow {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+}
+.gamer-icon-secondrow {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 5px;
+}
+
+/*footer part*/
+.footer {
+    padding: 120px 0;
+    background-color: #0B0223;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-title h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer-title span {
+    color: #FF42A5;
+}
+
+.footer > ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer li {
+    list-style: none;
+    padding: 35px 15px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a i{
+    color: #fff;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.footer h5 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive ness started*/
+@media screen and (max-width:576px) {
+    nav{
+        max-width: 1400px;
+        margin: 0 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+    nav > ul {
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        padding-top: 30px;
+    }
+    nav li {
+        margin: 15px 0;
+    }
+    .nav-title-container h3 {
+        margin-left: 15px;
+    }
+    nav button {
+        padding-left: 12px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .fa-youtube {
+        padding: 0 6px;
+        font-size: 18px;
+    }
+
+    /*banner section start*/
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-image img{
+        width: 400px;
+        object-fit: cover;
+    }
+    .banner-title h2{
+        font-size: 32px;
+    }
+    .banner-title h1 {
+        font-size: 64px;
+    }
+    .banner-title > ul {
+        text-align: start;
+    }
+    .banner-title ul li a {
+        font-size: 12px;
+
+    }
+    .banner-title {
+        padding: 40px 0;
+    }
+    .banner-btn-group {
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-btn-group .secondary-btn{
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .banner-btn-group .primary-btn{
+        padding: 12px 20px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    /*banner second section start*/
+    .banner-section-second {
+        margin: 0 118px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .banner-section-second img {
+        width: 450px;
+    }
+    .banner-section-second-title {
+        text-align: center;
+    }
+    .banner-section-second-title h3{
+        text-align: center;
+        font-size: 26px;
+    }
+    .banner-section-second-title p{
+        text-align: center;
+        font-size: 12px;
+
+    }
+    .second-banner-btn {
+        text-align: center;
+    }
+    .second-banner-btn .primary-btn{
+        padding: 12px 20px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .banner-section-second-title h5 {
+        text-align: center;
+    }
+    .banner-section-second-title span {
+        font-size: 16px;
+    }
+    /*online games part start*/
+    .online-games-section {
+        margin: 0 137px;
+        padding-top: 50px;
+        max-width: 1400px;
+    }
+    .online-games-section h3 {
+        font-size: 36px;
+    }
+    .online-games-section span {
+        font-size: 36px;
+    }
+    .online-games-section p {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .online-games-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    /*online game download section*/
+    .download-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+    .download-image {
+        text-align: center;
+    }
+    .download-image-second {
+        text-align: center;
+    }
+    .downloads-content {
+        padding: 40px 30px;
+        text-align: center;
+    }
+    .downloads-content h3 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .downloads-content p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .download-image .first-image {
+        width: 400px;
+        height: 420px;
+        object-fit: cover;
+    }
+    .download-image .second-image {
+        width: 170px;
+        height: 230px;
+        object-fit: cover;
+        position: absolute;
+        left: -65px;
+        bottom: -50px;
+    }
+    /*second part*/
+    .download-image-second {}
+    .download-image-second .first-image-second{
+        width: 400px;
+        height: 420px;
+        object-fit: cover;
+    }
+    .download-image-second .second-image-second{
+        width: 190px;
+        height: 230px;
+        object-fit: cover;
+        position: absolute;
+        right: -65px;
+        bottom: -50px;
+    }
+    .downloads-content-second {
+        padding: 80px 30px 30px;
+        text-align: center;
+    }
+    .downloads-content-second h3 {
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    .downloads-content-second p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /*gamer icon box*/
+    .gamer-icon-firstrow {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        align-content: center;
+}
+.gamer-icon-section {
+    max-width: 1400px;
+    margin: 0 100px;
+    padding: 120px 0;
+}
+.gamer-icon-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 45px;
+    border: 2px solid transparent;
+    padding: 0 10px;
+
+}
+.gamer-icon-secondrow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:576px) and (max-width:1024px) {
+    nav{
+        max-width: 1400px;
+        margin: 0 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+    nav > ul {
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        padding-top: 30px;
+    }
+    nav li {
+        margin: 15px 0;
+    }
+    .nav-title-container h3 {
+        margin-left: 15px;
+    }
+    nav button {
+        padding-left: 12px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .fa-youtube {
+        padding: 0 6px;
+        font-size: 18px;
+    }
+    /*banner section start*/
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-image img{
+        width: 400px;
+        object-fit: cover;
+    }
+    .banner-title h2{
+        font-size: 32px;
+    }
+    .banner-title h1 {
+        font-size: 64px;
+    }
+    .banner-title > ul {
+        text-align: start;
+    }
+    .banner-title ul li a {
+        font-size: 12px;
+
+    }
+    .banner-title {
+        padding: 50px 0;
+    }
+    .banner-btn-group {
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-btn-group .secondary-btn{
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .banner-btn-group .primary-btn{
+        padding: 12px 20px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    /*banner second section start*/
+    .banner-section-second {
+        margin: 0 118px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .banner-section-second img {
+        width: 550px;
+    }
+    .banner-section-second-title {
+        text-align: center;
+    }
+    .banner-section-second-title h3{
+        text-align: center;
+        font-size: 34px;
+    }
+    .banner-section-second-title p{
+        text-align: center;
+        font-size: 12px;
+
+    }
+    .second-banner-btn {
+        text-align: center;
+    }
+    .second-banner-btn .primary-btn{
+        padding: 12px 20px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .banner-section-second-title h5 {
+        text-align: center;
+    }
+    .banner-section-second-title span {
+        font-size: 16px;
+    }
+    /*online games part start*/
+    .online-games-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .online-games-section {
+        margin: 0 137px;
+        padding-top: 50px;
+        max-width: 1400px;
+    }
+    .online-games-section h3 {
+        font-size: 36px;
+    }
+    .online-games-section span {
+        font-size: 36px;
+    }
+    .online-games-section p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
